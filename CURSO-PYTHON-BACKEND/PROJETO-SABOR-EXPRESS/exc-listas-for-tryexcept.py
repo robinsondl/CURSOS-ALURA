@@ -19,28 +19,65 @@ def opcao_invalida():
 def listas():
     exibir_subtitulos("Listando Opções");
 
+def listar_numeros():
+    exibir_subtitulos("Listando números: \n");
+    for numero in lista_numeros:
+        print(f".{numero}");
+
+def listar_nomes():
+    exibir_subtitulos("Listando nomes: \n");
+    for nome in lista_nomes:
+        print(f".{nome}");
+
+def listar_nascimento():
+    exibir_subtitulos("Lista de nascimentos: \n");
+    for nascimento in lista_nascimento:
+        print(f".{nascimento}");
+
+def voltar_ao_menu_principal():
+    input("\nPrecione ENTER para voltar ao meu principal");
+    main()
+
 def escolher_opcoes():
     try:
-        opcao_escolhida = int(input("Escolha umas das Listas: "));
+        opcao_escolhida = int(input("\nEscolha umas das Listas: "));
 
         if opcao_escolhida == 1:
-            lista_numeros();
+            listar_numeros();
+            voltar_ao_menu_principal();
         elif opcao_escolhida == 2:
-            lista_nomes();
-        else:
-            lista_nascimento();
+            listar_nomes();
+            voltar_ao_menu_principal();
+        elif opcao_escolhida == 3:
+            listar_nascimento();
+        voltar_ao_menu_principal();
     except:
         opcao_invalida();
+        voltar_ao_menu_principal();
 
 def voltar_ao_menu_principal():
     input("\n Digite qualquer tecla para voltar ao menu principal ");
     main();
 
+def escolher_opcao():
+    try:
+        opcao_escolhida = int(input("Escolha uma das opções: "));
+        if opcao_escolhida == 1:
+            lista_numeros();
+        elif opcao_escolhida == 2:
+            lista_nomes();
+        elif opcao_escolhida == 3:
+            lista_nascimento();
+        else:
+            opcao_invalida();
+    except:
+        opcao_invalida();
 
 
 def main():
-    exibir_opcoes();
     os.system("cls");
+    exibir_opcoes();
+    escolher_opcoes();
 
 if __name__ == '__main__':
     main();
