@@ -22,3 +22,5 @@ Nesta pasta estão os exercícios e práticas desenvolvidos durante o curso.
 
 ## Status
 Curso `100%` finalizado e utilizado como prática de fixação dos fundamentos de Python.
+
+![Capa do curso](./capa-curso.png)
