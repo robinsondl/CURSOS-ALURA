@@ -25,8 +25,8 @@ Curso finalizado.
 
 ## Capa do curso
 
-![Capa do curso](./capa-curso-praticando-python-lacos-for-e-while.png)
+![Capa do curso](./capa-curso-praticando-python-laços-for-e-while.png)
 
 ## Certificado
 
-[📄 Visualizar certificado](./certificado-praticando-python-lacos-for-e-while(pt).pdf)
+[📄 Visualizar certificado](./certificado-praticando-python-laços-for-e-while(pt).pdf)
