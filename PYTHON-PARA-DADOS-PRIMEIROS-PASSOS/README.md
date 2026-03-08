@@ -30,3 +30,11 @@ Este curso contribuiu para consolidar meus conhecimentos iniciais em Python e am
 
 ## Status
 Curso finalizado.
+
+## Capa do curso
+
+![Capa do curso](./capa-curso-python-para-dados-iniciante.png)
+
+## Certificado
+
+[📄 Visualizar certificado](./certificado-python-para-dados-primeiros-passos(pt).pdf)
