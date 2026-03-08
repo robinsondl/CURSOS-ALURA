@@ -21,6 +21,12 @@ Além disso, consegui enxergar melhor como esses conceitos se conectam com probl
 Nesta pasta estão os exercícios e práticas desenvolvidos durante o curso.
 
 ## Status
-Curso `100%` finalizado e utilizado como prática de fixação dos fundamentos de Python.
+Curso finalizado.
 
-![Capa do curso](./capa-curso.png)
+## Capa do curso
+
+![Capa do curso](./capa-curso-praticando-python-condicionais-if-elif-e-else.png)
+
+## Certificado
+
+[📄 Visualizar certificado](.certificado-praticando-python-condicionais-if-elif-e-else(pt).pdf)
