@@ -25,7 +25,7 @@ Curso finalizado.
 
 ## Capa do curso
 
-![Capa do curso](./capa-curso-praticando-python-laços-for-e-while.png)
+![Capa do curso](./capa-curso-praticando-python-laços-for-e-while(pt).png)
 
 ## Certificado
 
